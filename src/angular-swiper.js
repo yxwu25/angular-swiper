@@ -38,6 +38,8 @@
                 showNavButtons: '=',
                 showScrollBar: '=',
                 loop: '=',
+                zoom: '=',
+                zoomToggle: '=',
                 autoplay: '=',
                 initialSlide: '=',
                 containerCls: '@',
@@ -60,6 +62,8 @@
                     spaceBetween: $scope.spaceBetween || 0,
                     direction: $scope.direction || 'horizontal',
                     loop: $scope.loop || false,
+                    zoom: $scope.zoom || false,
+                    zoomToggle: $scope.zoomToggle === false ? false : true,
                     initialSlide: $scope.initialSlide || 0,
                     showNavButtons: false
                 };
